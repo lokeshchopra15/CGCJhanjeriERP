@@ -1,0 +1,82 @@
+.loginimage{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)),  url('cgc.jpg');
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        }
+        .logincontain{
+          
+          margin:90px;
+          
+            width:500px;
+            height:400px;
+            background: whitesmoke;
+            box-shadow: 0 0 6px whitesmoke;
+           
+           
+        }
+        .loginhead{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        
+        .loginhead h1{
+            font-size: 40px;
+            text-shadow: 0 0 5px black;
+            margin-top: 30px;
+           
+        }
+       .loginform form{
+       /* margin-top: 40px; */
+       margin-left: 30px;
+       }
+       .loginform form input{
+        padding:10px 15px;
+        width:350px;
+        font-size: 15px;
+       }
+       .loginform form a{
+        font-size: 15px;
+       }
+ .loginform form button{
+  padding:10px 20px;
+  background: red;
+  color:white;
+  width:450px;
+  text-align: center;
+  font-size: 22px;
+  border-radius: 20px;
+  border: none;
+ }
+ .loginform form button:hover{
+  background: #2555A6;
+  color:white;
+
+ }
+ .loginform a{
+  text-decoration: none;
+  color:#2555A6;
+  font-size:18px;
+ }
+ .loginform a:hover{
+  color:blue;
+  font-size: 19px;
+ }
+ .loginform form p{
+  margin-top: 20px;
+  font-size: 16px;
+ }
+ .loginform form p a{
+  text-decoration: none;
+  color:#2555A6;
+  font-size:17px ;
+ }
+ .loginform form p a:hover{
+  color:blue;
+  font-size: 19px;
+ }
